@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.App__title {
+  padding: 5px 0;
+
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+
+  background-color: #2e3438;
+}

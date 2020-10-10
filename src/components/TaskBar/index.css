@@ -1,0 +1,33 @@
+.TaskBar {
+  background-color: #2b87d9;
+}
+
+.TaskBar__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.TaskBar__action {
+  display: flex;
+  align-items: center;
+  padding: 8px 20px;
+
+  color: #fff;
+  text-decoration: none;
+
+  background-color: #2576be;
+  border-right: 1px solid #000;
+
+  transition: background-color 0.3s;
+}
+
+.TaskBar__action svg {
+  margin-right: 5px;
+}
+
+.TaskBar__action:hover {
+  background-color: #1f5c91;
+}

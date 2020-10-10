@@ -1,0 +1,14 @@
+.NoteEditor {
+  height: 100%;
+}
+
+.NoteEditor__area {
+  height: 100%;
+  width: 100%;
+
+  font: inherit;
+
+  resize: none;
+  border: none;
+  outline: none;
+}
